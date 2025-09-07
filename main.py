@@ -16,6 +16,9 @@ CARBON_FRACTION = 0.475
 CO2_CONVERSION = 3.67
 PIXEL_AREA_HA = 0.09
 
+@app.get("/")
+def read_root():
+    return {"message": "Heatmap Backend is running! Use POST /calculate_credits/ with a file."}
 
 @app.post("/calculate_credits/")
 async def calculate_credits(file: UploadFile = File(...)):
