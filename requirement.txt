@@ -3,3 +3,5 @@ pydantic
 uvicorn
 gunicorn
 numpy
+rasterio
+shutil
