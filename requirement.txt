@@ -1,8 +1,6 @@
-fastapi
-pydantic    
-uvicorn
-gunicorn
-numpy
-rasterio
-shutil
-os
+fastapi==0.111.0
+pydantic==2.8.2
+uvicorn==0.30.1
+gunicorn==22.0.0
+numpy==1.26.4
+rasterio==1.3.10
